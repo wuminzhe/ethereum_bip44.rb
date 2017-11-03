@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "ethereum_bip44/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ethereum_bip44.rb"
+  spec.name          = "ethereum_bip44"
   spec.version       = EthereumBip44::VERSION
   spec.authors       = ["wuminzhe"]
   spec.email         = ["wuminzhe@gmail.com"]
