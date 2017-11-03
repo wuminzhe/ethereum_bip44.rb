@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6adfe41e-75d6-4c9f-94a7-6cf45e8f0229" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ethereum_bip44.gemspec" afterPath="$PROJECT_DIR$/ethereum_bip44.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ethereum_bip44.gemspec" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ethereum_bip44.gemspec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ethereum_bip44.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="143" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="143" />
+            <state relative-caret-position="395">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -70,12 +71,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="665">
-                <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="349">
+                <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,8 +102,8 @@
         <option value="$PROJECT_DIR$/lib/ethereum_bip44/utils.rb" />
         <option value="$PROJECT_DIR$/lib/ethereum_bip44.rb" />
         <option value="$PROJECT_DIR$/test/ethereum_bip44_test.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ethereum_bip44.gemspec" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -349,7 +350,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509628188086</updated>
-      <workItem from="1509628189826" duration="6884000" />
+      <workItem from="1509628189826" duration="7001000" />
     </task>
     <servers />
   </component>
@@ -386,7 +387,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6884000" />
+    <option name="totallyTimeSpent" value="7001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -475,22 +476,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="665">
-            <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/ethereum_bip44.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ethereum_bip44.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="143" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="143" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="349">
+            <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -24,6 +24,8 @@ Or install it yourself as:
 
 ## Usage
 
+See test
+
 TODO: Write usage instructions here
 
 ## Contributing
