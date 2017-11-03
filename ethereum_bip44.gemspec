@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["wuminzhe"]
   spec.email         = ["wuminzhe@gmail.com"]
 
-  spec.summary       = "Ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard."
-  spec.description   = "Ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard."
+  spec.summary       = "A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard."
+  spec.description   = "A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard."
   spec.homepage      = "https://github.com/wuminzhe/ethereum-bip44.rb"
   spec.license       = "MIT"
 
