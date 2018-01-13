@@ -5,6 +5,9 @@ A ruby library to generate Ethereum addresses from a hierarchical deterministic 
 Internally it uses [money-tree](https://github.com/GemHQ/money-tree) for the deterministic private and public keys which allows to use many additional features like deriving Ethereum address from mnemonic backups (BIP32).
 
 Compatible with most hd wallet client like: imToken，MetaMask，Jaxx，MyEtherWallet，TREZOR，Exodus...
+
+Not only for Ethereum address, but also support bitcoin address. I will add more coin support to it.
+
 ## Installation
 
 Add this line to your application's Gemfile:
