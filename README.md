@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-See test_get_addresses_from_wallet
+See test
 
 TODO: Write usage instructions here
 
