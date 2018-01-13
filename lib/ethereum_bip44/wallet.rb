@@ -6,6 +6,8 @@ module EthereumBip44
   # "0"     # 0 - public, 1 = private
   # "0"     # index
   class Wallet
+    include EthereumBip44::Bitcoin
+    include EthereumBip44::Ethereum
 
     def self.from_seed(seed, path)
       master = MoneyTree::Master.new(seed_hex: seed) # 3. 种子用于使用 HMAC-SHA512 生成根私钥（参见 BIP32）
@@ -29,26 +31,6 @@ module EthereumBip44
 
     def xprv
       @wallet_node.to_bip32(:private)
-    end
-
-    def get_bitcoin_address(index)
-      node = @wallet_node.node_for_path("M/0/#{index}")
-      node.to_address
-    end
-
-    def get_ethereum_address(index)
-      node = @wallet_node.node_for_path("M/0/#{index}")
-
-      # from bitcoin public key to ethereum public key
-      group = ECDSA::Group::Secp256k1
-      public_key = ECDSA::Format::PointOctetString.decode(node.public_key.to_bytes, group) # a point
-      ethereum_public = public_key.x.to_s(16) + public_key.y.to_s(16)
-
-      # from ethereum public key to ethereum address
-      bytes = EthereumBip44::Utils.hex_to_bin(ethereum_public)
-      address_bytes = Digest::SHA3.new(256).digest(bytes)[-20..-1]
-      address = EthereumBip44::Utils.bin_to_hex(address_bytes)
-      EthereumBip44::Utils.prefix_hex(address)
     end
 
     private

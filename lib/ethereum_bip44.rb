@@ -5,6 +5,8 @@ require 'rlp'
 require 'money-tree'
 require 'bip_mnemonic'
 require 'ethereum_bip44/utils'
+require 'ethereum_bip44/bitcoin'
+require 'ethereum_bip44/ethereum'
 require 'ethereum_bip44/wallet'
 
 module EthereumBip44
