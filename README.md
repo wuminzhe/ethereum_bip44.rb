@@ -2,10 +2,9 @@
 
 A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) standard.
 
-Internally it uses [btcruby](https://github.com/oleganza/btcruby) for the deterministic private and public keys which allows to use many additional features like deriving Ethereum address from mnemonic backups (BIP32).
+Internally it uses [money-tree](https://github.com/GemHQ/money-tree) for the deterministic private and public keys which allows to use many additional features like deriving Ethereum address from mnemonic backups (BIP32).
 
-This library is inspired by the js library [coinme/ethereum-bip44](https://github.com/coinme/ethereum-bip44), I followed its design.
-
+Compatible with most hd wallet client like: imToken，MetaMask，Jaxx，MyEtherWallet，TREZOR，Exodus...
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -24,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-See test
+See test_get_addresses_from_wallet
 
 TODO: Write usage instructions here
 
